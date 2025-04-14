@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "52503669308",
+    "project_id": "zene-blog-app",
+    "storage_bucket": "zene-blog-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52503669308:android:03b93edb6e8df295fdb139",
+        "android_client_info": {
+          "package_name": "com.example.zene_blog_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixkGqF6rqroeF4P7LWtdmSG5lh46ATmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

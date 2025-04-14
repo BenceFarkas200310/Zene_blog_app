@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/c_m"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input_content"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="top"
+            android:hint="@string/tartalom"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btn_save_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ment_s" />
+
+        <Button
+            android:id="@+id/btn_delete_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/t_rl_s"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

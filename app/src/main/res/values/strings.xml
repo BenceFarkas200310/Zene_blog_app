@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zene_blog_app</string>
+    <string name="sszes_blog_megtekint_se">Összes blog megtekintése</string>
+    <string name="j_blog_l_trehoz_sa">Új blog létrehozása</string>
+    <string name="c_m">Cím</string>
+    <string name="tartalom">Tartalom</string>
+    <string name="ment_s">Mentés</string>
+    <string name="t_rl_s">Törlés</string>
+</resources>
