@@ -1,10 +1,10 @@
-package com.example.zene_blog_app.adapters;
+package com.example.zene_blog_app;
 
 import android.content.Context;
 import android.view.*;
 import android.widget.*;
 import com.example.zene_blog_app.R;
-import com.example.zene_blog_app.models.BlogPost;
+import com.example.zene_blog_app.BlogPost;
 
 import java.util.List;
 

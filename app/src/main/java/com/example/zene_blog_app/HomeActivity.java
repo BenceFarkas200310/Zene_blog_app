@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -13,11 +15,16 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button blogButton = findViewById(R.id.blog_button);
+        Button blogButton = findViewById(R.id.btn_view_blogs);
         Button logoutButton = findViewById(R.id.logout_button);
+        Button createBlogButton = findViewById(R.id.btn_create_blog);
 
         blogButton.setOnClickListener(view -> {
             startActivity(new Intent(HomeActivity.this, BlogListActivity.class));
+        });
+
+        createBlogButton.setOnClickListener(view -> {
+            startActivity(new Intent(HomeActivity.this, BlogEditActivity.class));
         });
 
         logoutButton.setOnClickListener(view -> {
